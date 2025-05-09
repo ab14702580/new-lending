@@ -169,14 +169,24 @@
 }
 .dream-left {
     padding: 30px;
+    flex: 1 1 40%;
+    max-width: 40%;
+    overflow: hidden;
 }
 .dream-right {
+    flex: 1 1 60%;
+    max-width: 60%;
     padding-top: 30px;
     padding-right: 20px;
+}
+.dream-right img{
+    width: 100%;
+    border-radius: 20px;
 }
 .dream-right-img {
     display: flex;
     justify-content: end;
+    position: relative;
 }
 .dream-container-2-header-content {
     max-width: 1440px;
@@ -1103,8 +1113,7 @@ margin-top: 10px;
     height: 100%;
     position: absolute;
     top: 0;
-    left: 0 ;
-    right: 0;
+    right: 0px;
     background-image: url('./Assets/background-transparent-img.png');
     background-repeat: no-repeat;
     z-index: -1;
@@ -1116,4 +1125,64 @@ font-size: 32px;
 line-height: 110.00000000000001%;
 letter-spacing: 0%;
 
+}
+.transparent-section{
+    max-width: 1440px;
+    margin: auto;
+}
+.dream-right-img-card{
+    width: 259px;
+height: 281px;
+position: absolute;
+top: 24px;
+left: 24px;
+border-radius: 7px;
+background:  #F2F03F;
+
+
+}
+.dream-right-img-card img{
+    width: 113px;
+padding-top: 28.08px;
+padding-left: 20px;
+
+}
+.dream-right-img-card .dream-para-1{
+    font-family: Tiempos Headline;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+letter-spacing: 0%;
+color: #0D1B32; 
+margin-top: 40px;
+padding: 0 18px;
+margin-bottom: 30px;
+}
+.dream-profile-pic-div img{
+    width: 58px;
+    height: 63px;
+}
+.dream-right-person-profile{
+    margin-top: 26px;
+}
+.dream-person-icon{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}
+.profile-info-dream h1{
+    font-family: Helvetica Now Display;
+font-weight: 700;
+font-size: 13px;
+line-height: 140%;
+letter-spacing: 0%;
+color: #0D1B32;
+}
+.profile-info-dream p{
+    font-family: Helvetica Now Display;
+font-weight: 400;
+font-size: 13px;
+line-height: 140%;
+letter-spacing: 0%;
+color: #0D1B32;
 }
