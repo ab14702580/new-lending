@@ -327,8 +327,19 @@ border: 1px solid;
 border-image-source: linear-gradient(180deg, rgba(39, 48, 74, 0) 0%, #27304A 20.91%, #27304A 73.56%, rgba(39, 48, 74, 0) 100%);
 background: url('./Assets/Grid\ Pattern.png') no-repeat;
     margin: auto;
-    z-index: -1;
+    z-index: -2;
         background-size: cover;
+}
+.accelerted-container::after{
+    content:'';
+height: 100%;
+left: 0;
+right: 0;
+top: 0;
+border-width: 1px;
+background: linear-gradient(177.41deg, transparent, #000000);
+position: absolute;
+z-index: -1;
 }
 .accelerted-top{
     z-index: 60;
