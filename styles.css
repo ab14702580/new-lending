@@ -521,7 +521,7 @@ color: #B4B4B4;
 .price-header-content h1{
     font-family: Helvetica ;
 font-weight: 500;
-font-size: 32px;
+font-size: 25px;
 line-height: 105%;
 letter-spacing: 0%;
 text-align: center;
@@ -1057,4 +1057,50 @@ margin-top: 10px;
     max-width: 1440px;
     margin: auto;
     margin-bottom: 100px;
+}
+.transparent-section-header-content p{
+    font-family: Helvetica;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 10%;
+text-align: center;
+text-transform: uppercase;
+color: #B4B4B4;
+}
+.transparent-section-header-content h1 {
+    font-family: Helvetica;
+font-weight: 500;
+font-size: Typography/Font Sizes/H2;
+line-height: 105%;
+letter-spacing: 0%;
+text-align: center;
+color: #1A1A1A;
+margin-top: 10px;
+}
+.transparent-section-header-content{
+    margin-bottom: 60px;
+}
+.transparent-section-container{
+    padding: 0 60px;
+
+}
+.transparent-section-container-control{
+    gap: 10px;
+    border-radius: 20px;
+    padding-top: 80px;
+    padding-right: 50px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+    background: linear-gradient(177.41deg, #0D1B32 2.11%, #000000 92.51%);
+    color: white;
+
+}
+.trasparent-left-header-content{
+    font-family: Helvetica;
+font-weight: 500;
+font-size: 32px;
+line-height: 110.00000000000001%;
+letter-spacing: 0%;
+
 }
