@@ -524,6 +524,8 @@ text-align: center;
 
 }
 .price-card{
+    max-width: 1440px;
+    margin: auto;
 gap: 30px;
 padding-top: 40px;
 padding-right: 60px;
@@ -535,7 +537,8 @@ justify-content: center;
 
 }
 .price-card-1{
-    width: 434px;
+    flex: 1 1 30%;
+    max-width: 30%;
     padding: 0 5px;
     height:auto;
 gap: 10px;
