@@ -432,12 +432,14 @@ color: #B4B4B4;
 }
 
 .section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 40px;
-  gap: 40px;
-  flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    gap: 76px;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .section-image {
