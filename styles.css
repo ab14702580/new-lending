@@ -337,7 +337,7 @@ left: 0;
 right: 0;
 top: 0;
 border-width: 1px;
-background: linear-gradient(177.41deg, transparent, #000000);
+background: linear-gradient(transparent, #000000 80%);
 position: absolute;
 z-index: -1;
 }
