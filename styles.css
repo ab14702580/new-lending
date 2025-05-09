@@ -322,12 +322,12 @@ left: -60.26px;
 border-width: 1px;
 position: absolute;
 border: 1px solid;
-background-size: cover;
 
 border-image-source: linear-gradient(180deg, rgba(39, 48, 74, 0) 0%, #27304A 20.91%, #27304A 73.56%, rgba(39, 48, 74, 0) 100%);
 background: url('./Assets/Grid\ Pattern.png') no-repeat;
     margin: auto;
     z-index: -1;
+        background-size: cover;
 }
 .accelerted-top{
     z-index: 60;
