@@ -647,3 +647,179 @@ position: super;
 color: #5C5C5C;
 
 }
+.contact-section{
+    position: relative;
+    background: #F8F413;
+    height: 795px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.contact-page-header-top-part{
+    position: absolute;
+    top: 0;
+    background: white;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+    display: inline-block;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+.contact-container{
+    padding: 0 60px;
+    padding-top: 60px;
+    display: flex;
+    height: 100%;
+    padding-bottom: 30px;
+}
+.contact-left{
+    flex: 1 1 50%;
+    max-width: 50%;
+    height: 100%;
+}
+.content-left-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.content-left-text h1{
+    font-family: Tiempos Headline;
+font-weight: 400;
+font-size: 40px;
+line-height: 110.00000000000001%;
+letter-spacing: 0%;
+
+}
+.content-left-text p{
+    max-width: 542px;
+    font-family: Helvetica Now Display;
+font-weight: 400;
+font-size: Typography/Font Sizes/Subtitle;
+line-height: 140%;
+letter-spacing: 0%;
+margin-top: 20px;
+
+}
+.content-left-info-left img{
+    width: 154px;
+    display: inline-block;
+    height: 53px;
+    margin-top: 50px;
+}
+.content-left-info-left p{
+    font-family: Helvetica Now Display;
+font-weight: 700;
+font-size: Typography/Font Sizes/Subtitle;
+line-height: 140%;
+letter-spacing: 0%;
+
+
+}
+.content-left-infp{
+    display: flex;
+    gap: 50px;
+}
+.content-left-info-right {
+    display: flex;
+    align-items: end;
+    gap: 50px;
+}
+.contact-right{
+padding-top: 77px;
+border-top-width: 6px;
+flex: 1 1 50%;
+max-width: 50%;
+}
+.contact-right-container{
+    width: 100%;
+    height: 100%;
+background: black;
+border-radius: 20px;
+padding: 40px;
+}
+.contact-right-header-content{
+    font-family: Helvetica Now Display;
+font-weight: 500;
+font-size: 22px;
+leading-trim: Cap height;
+line-height: 140%;
+letter-spacing: 0%;
+color: white;
+margin-bottom: 20px;
+}
+.contact-input-form{
+    color: white;
+}
+.input-1{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.input-1 label{
+    text-transform: capitalize;
+    font-family: Helvetica;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 1%;
+
+}
+.input-1 input{
+    width: 100%;
+height: 46px;
+gap: 10px;
+border-radius: 4px;
+padding: 12px;
+background: var(--spaceBlue-800, #27304A);
+border: none;
+color: white;
+outline: none;
+}
+.input-2{
+margin-top: 20px;
+}
+.input-3 textarea{
+    resize: none;
+    width: 100%;
+height: 157px;
+gap: 8px;
+border-radius: 4px;
+padding: 12px;
+background:  #27304A;
+border: none;
+outline: none;
+color: white;
+position: relative;
+}
+.input-3{
+position: relative;
+
+}
+.sub-btn1 {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+.sub-btn1 button{
+    padding: 10px 40px;
+    background: #F8F413;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+    border: 1px solid #F8F413;
+    transition: all 0.3s linear;
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    z-index: 1;
+}
