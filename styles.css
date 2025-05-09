@@ -924,3 +924,137 @@ color: #5C5C5C;
 .filiperk-dev-info-2{
     margin-top: 20px;
 }
+.filiperk-section{
+    margin-top: 60px;
+    margin-bottom: 140px;
+}
+.building-section-container-header-content p{
+    font-family: Helvetica;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 10%;
+text-align: center;
+text-transform: uppercase;
+color: #B4B4B4;
+margin-bottom: 20px;
+}
+.building-section-container-header-content h1{
+    font-family: Helvetica;
+font-weight: 500;
+font-size: Typography/Font Sizes/H2;
+line-height: 105%;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 50px;
+}
+.building-section-container-div-manage{
+    display: flex;
+}
+.building-section-container{
+    padding: 0 60px;
+}
+.building-section-left{
+    flex: 1 1 58%;
+    max-width: 50%;
+    padding-right: 15px;
+}
+.building-section-right{
+    flex: 1 1 50%;
+    max-width: 50%;
+    padding-left: 15px;
+}
+.building-section-left h1{
+    font-family: Helvetica ;
+font-weight: 500;
+font-size: 24px;
+line-height: 114.99999999999999%;
+letter-spacing: 0%;
+color: #1A1A1A;
+margin-top: 20px;
+}
+.building-section-left p{
+    font-family: Helvetica;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+letter-spacing: Typography/Letter Spacing/Body;
+color: #575757;
+margin-top: 10px;
+}
+.building-section-right h1{
+    font-family: Helvetica;
+font-weight: 500;
+font-size: 24px;
+line-height: 114.99999999999999%;
+letter-spacing: 0%;
+margin-top: 20px;
+color: #1A1A1A;
+}
+.building-section-right p{
+    font-family: Helvetica;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+letter-spacing: Typography/Letter Spacing/Body;
+color: #1A1A1A;
+margin-top: 10px;
+}
+.building-section-bottom{
+    margin-top: 80px;
+}
+.building-section-bottom{
+    display: flex;
+}
+.building-section-bottom-card-1{
+border-radius: 20px;
+padding: 30px;
+background: #F2F1ED;
+}
+.building-card-1{
+    flex: 1 1 25%;
+    max-width: 25%;
+padding-right: 8px;
+}
+.building-section-bottom-card-1 img{
+    margin-bottom: 30px;
+}
+.building-section-bottom-card-1-bottom-content h1{
+    font-family: Helvetica;
+font-weight: 500;
+font-size: 18px;
+leading-trim: Cap height;
+line-height: 140%;
+letter-spacing: 0%;
+vertical-align: bottom;
+color: #1A1A1A;
+}
+.building-section-bottom-card-1-bottom-content p{
+    font-family: Helvetica Now Display;
+font-weight: 400;
+font-size: 14px;
+leading-trim: Cap height;
+line-height: 140%;
+letter-spacing: 0%;
+vertical-align: bottom;
+color: #575757;
+margin-top: 10px;
+}
+.building-card-2{
+    padding-left: 8px;
+}
+.building-card-3{
+    padding-left: 8px;
+    padding-right: 0px;
+}
+.building-section-left img{
+    width: 100%;
+}
+.building-section-right img{
+    width: 100%;
+}
+.building-section-2{
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 100px;
+}
