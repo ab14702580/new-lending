@@ -836,3 +836,91 @@ position: relative;
     left: 0;
     z-index: 1;
 }
+.filiperk-section-container .filiperk-img-1{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 130%;
+}
+.filiperk-section-container{
+    position: relative;
+    height: 875px;
+    width: 100%;
+    overflow: hidden;
+}
+.filiperk-card{
+    position: absolute;
+top: 100px;
+left: 60px;
+gap: 10px;
+border-radius: 24px;
+padding-top: 50px;
+padding-right: 30px;
+padding-bottom: 40px;
+padding-left: 30px;
+background: linear-gradient(177.41deg, #0D1B32 2.11%, #000000 92.51%);
+    z-index: 1;
+    color: white;
+
+}
+.filiperk-card .filiperk-p1{
+    max-width: 354px;
+    margin-top: 20px;
+    font-family: Helvetica Now Display;
+font-weight: 400;
+font-size: Typography/Font Sizes/Body;
+line-height: 140%;
+letter-spacing: Typography/Letter Spacing/Body;
+color: #D8D8D8;
+
+}
+.filiperk-card .button-filiperk a p{
+    font-family: Helvetica Now Display;
+font-weight: 700;
+font-size: 14px;
+leading-trim: Cap height;
+line-height: 140%;
+letter-spacing: 0%;
+color: white;
+}
+.filiperk-card .button-filiperk a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+margin-top: 20px;
+}
+.filiperk-card .button-filiperk a img{
+    width: 16+px;
+    height: 16px;
+}
+.filiperk-dev-info{
+gap: 10px;
+border-radius: 17px;
+padding-top: 27px;
+padding-right: 30px;
+padding-bottom: 27px;
+padding-left: 30px;
+background: #F8F413;
+margin-top: 40px;
+color: black;
+
+}
+.filiperk-dev-info .filiperk-dev-info-1 h1{
+    font-family: Helvetica ;
+font-weight: 500;
+font-size: 24px;
+line-height: 114.99999999999999%;
+letter-spacing: 0%;
+
+}
+.filiperk-dev-info .filiperk-dev-info-1 p{
+    font-family: Helvetica;
+font-weight: 400;
+font-size: Typography/Font Sizes/Body;
+line-height: 140%;
+letter-spacing: Typography/Letter Spacing/Body;
+color: #5C5C5C;
+}
+.filiperk-dev-info-2{
+    margin-top: 20px;
+}
